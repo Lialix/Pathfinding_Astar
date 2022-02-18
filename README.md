@@ -1,1 +1,1 @@
-Thank to Tech with Tim for his amazing video !
+Thanks to Tech with Tim for his amazing video !
