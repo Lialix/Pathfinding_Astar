@@ -1,11 +1,8 @@
 import pygame
 import math
 from queue import PriorityQueue
-import os
-os.environ["SDL_VIDEODRIVER"] = "dummy"
 
-
-WIDTH = 800
+WIDTH = 1000
 WIN = pygame.display.set_mode((WIDTH, WIDTH))
 pygame.display.set_caption("A* Path Finding Algorithm")
 
@@ -192,7 +189,7 @@ def get_clicked_pos(pos, rows, width):
 
 
 def main(win, width):
-	ROWS = 50
+	ROWS = 40
 	grid = make_grid(ROWS, width)
 
 	start = None
